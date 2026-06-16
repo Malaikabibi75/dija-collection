@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dija Collection</title>
+
+    <style>
+        body{
+            background-color: #f0f0f0; /* light grey */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1{
+            color: hotpink;
+            margin-top: 30px;
+            font-size: 40px;
+        }
+
+        .gallery{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img{
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .gallery img:hover{
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Dija Collection</h1>
+
+    <div class="gallery">
+        <img src="sphire1.jpg" alt="Dress 1">
+        <img src="sphire2.jpg" alt="Dress 2">
+        <img src="sphire3.jpg" alt="Dress 3">
+    </div>
+
+</body>
+</html>
